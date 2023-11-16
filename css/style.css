@@ -1,1 +1,24 @@
-/* Egen custom CSS här */
+@font-face {
+        font-family: Orbit;
+        src: url(font/Orbit-Regular.ttf);
+    }
+
+@font-face {
+        font-family: Barcode;
+        src: url(font/LibreBarcode128Text-Regular.ttf);
+    }
+
+body {
+    font-family: Orbit;
+    background-color: #170e19;
+    color: #a19f7c;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Barcode;
+}
+
+.KSO-1 {
+    color: #a19f7c;
+}
