@@ -456,7 +456,7 @@
   --bd-violet-bg: var(--bd-violet);
   --bd-toc-color: var(--bd-violet);
   --bd-sidebar-link-bg: rgba(var(--bd-violet-rgb), .1);
-  --bd-callout-link: 0, 102, 0;
+  --bd-callout-link: 10, 88, 202;
   --bd-callout-code-color: #ab296a;
   --bd-pre-bg: var(--bs-tertiary-bg);
 }
@@ -466,7 +466,7 @@
   --bd-violet-bg: #712cf9;
   --bd-toc-color: var(--bs-emphasis-color);
   --bd-sidebar-link-bg: rgba(85, 33, 187, .5);
-  --bd-callout-link: 102, 179, 102;
+  --bd-callout-link: 110, 168, 254;
   --bd-callout-code-color: #e685b5;
   --bd-pre-bg: #1b1f22;
 }
@@ -1011,19 +1011,19 @@
   --bs-body-color: var(--bs-white);
   --bs-body-color-rgb: 255, 255, 255;
   --bs-body-bg: var(--bs-blue);
-  --bs-body-bg-rgb: 0, 128, 0;
-  --bs-tertiary-bg: #006600;
+  --bs-body-bg-rgb: 13, 110, 253;
+  --bs-tertiary-bg: #0a58ca;
 }
 [data-bs-theme=blue] .dropdown-menu {
-  --bs-dropdown-bg: #007300;
-  --bs-dropdown-link-active-bg: #004d00;
+  --bs-dropdown-bg: #0c63e4;
+  --bs-dropdown-link-active-bg: #084298;
 }
 [data-bs-theme=blue] .btn-secondary {
-  --bs-btn-bg: #339933;
+  --bs-btn-bg: #3d8bfc;
   --bs-btn-border-color: rgba(255, 255, 255, 0.25);
-  --bs-btn-hover-bg: #2d862d;
+  --bs-btn-hover-bg: #247cfc;
   --bs-btn-hover-border-color: rgba(255, 255, 255, 0.25);
-  --bs-btn-active-bg: #267326;
+  --bs-btn-active-bg: #0b6dfb;
   --bs-btn-active-border-color: rgba(255, 255, 255, 0.5);
   --bs-btn-focus-border-color: rgba(255, 255, 255, 0.5);
   --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
@@ -1738,7 +1738,7 @@
 
 .swatch-blue {
   color: #fff;
-  background-color: green;
+  background-color: #0d6efd;
 }
 .swatch-blue::after {
   position: absolute;
@@ -1748,8 +1748,8 @@
   font-size: 0.75rem;
   line-height: 1.35;
   white-space: pre;
-  content: "5.13" "\a" "5.13" "\a" "4.08";
-  background-color: green;
+  content: "4.50" "\a" "4.50" "\a" "4.66";
+  background-color: #0d6efd;
   background-image: linear-gradient(to bottom, transparent 0.25rem, #fff 0.25rem 0.75rem, transparent 0.75rem 1.25rem, #fff 1.25rem 1.75rem, transparent 1.75rem 2.25rem, #000 2.25rem 2.75rem, transparent 2.75rem);
   background-repeat: no-repeat;
   background-size: 0.5rem 100%;
@@ -2023,47 +2023,47 @@
 
 .bd-blue-100 {
   color: #000;
-  background-color: #cce6cc;
+  background-color: #cfe2ff;
 }
 
 .bd-blue-200 {
   color: #000;
-  background-color: #99cc99;
+  background-color: #9ec5fe;
 }
 
 .bd-blue-300 {
   color: #000;
-  background-color: #66b366;
+  background-color: #6ea8fe;
 }
 
 .bd-blue-400 {
   color: #000;
-  background-color: #339933;
+  background-color: #3d8bfd;
 }
 
 .bd-blue-500 {
   color: #fff;
-  background-color: green;
+  background-color: #0d6efd;
 }
 
 .bd-blue-600 {
   color: #fff;
-  background-color: #006600;
+  background-color: #0a58ca;
 }
 
 .bd-blue-700 {
   color: #fff;
-  background-color: #004d00;
+  background-color: #084298;
 }
 
 .bd-blue-800 {
   color: #fff;
-  background-color: #003300;
+  background-color: #052c65;
 }
 
 .bd-blue-900 {
   color: #fff;
-  background-color: #001a00;
+  background-color: #031633;
 }
 
 .bd-indigo-100 {
@@ -2611,8 +2611,8 @@ main [tabindex="0"] {
   --base08: #c6303e;
   --base09: #087990;
   --base0A: #6f42c1;
-  --base0B: #004d00;
-  --base0C: #004d00;
+  --base0B: #084298;
+  --base0C: #084298;
   --base0D: #6f42c1;
   --base0E: #ab296a;
   --base0F: #333;
@@ -2630,7 +2630,7 @@ main [tabindex="0"] {
   --base0A: #ffe69c;
   --base0B: #79dfc1;
   --base0C: #79dfc1;
-  --base0D: #66b366;
+  --base0D: #6ea8fe;
   --base0E: #c29ffa;
   --base0F: #ea868f;
 }
@@ -2929,7 +2929,7 @@ main [tabindex="0"] {
 .anchor-link {
   padding: 0 0.175rem;
   font-weight: 400;
-  color: rgba(0, 128, 0, 0.5);
+  color: rgba(13, 110, 253, 0.5);
   text-decoration: none;
   opacity: 0;
   transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
@@ -2943,7 +2943,7 @@ main [tabindex="0"] {
   content: "#";
 }
 .anchor-link:focus, .anchor-link:hover, :hover > .anchor-link, :target > .anchor-link {
-  color: green;
+  color: #0d6efd;
   text-decoration: none;
   opacity: 1;
 }/*# sourceMappingURL=docs.css.map */
