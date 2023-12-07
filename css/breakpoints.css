@@ -1,6 +1,6 @@
 /* body {
 margin-top: 40px; This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles.
-} */
+} 
 
 body::before {
   content: "XS";
@@ -12,7 +12,7 @@ body::before {
   right: 0;
 }
 
-/* This box class is purely used for explaining how the bootstrap grid system works. */
+/* This box class is purely used for explaining how the bootstrap grid system works. 
 .box {
   background-color: lightblue;
   border: 1px solid blue;
@@ -48,4 +48,4 @@ body::before {
   body::before {
     content: "XXL";
   }
-}
+} */
